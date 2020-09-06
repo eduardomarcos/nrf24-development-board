@@ -22,7 +22,8 @@ This is the way it looks like:
 Features:
 * All I/O pins available for direct connection
 * NRF24L01 wired with an optional capacitor for noise reduction
+* Err Tx and Rx led diodes for mysensors capability
 
 This is the way it looks like:
 
-![Pcb board preview](https://github.com/eduardomarcos/nrf24-development-board/blob/master/esp32-board.png)
+![Pcb board preview](https://github.com/eduardomarcos/nrf24-development-board/blob/master/esp32-dev-board-pcb-preview.png)
