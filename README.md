@@ -1,7 +1,8 @@
 # NRF24 Development Board
 
-The goal of this repository is to keep a version of a useful development board for my [MySensors](https://www.mysensors.org/) projects based on atmega 328 and nrf24l01 module, so I do not need to wire all componentes into a breadboard.
+The goal of this repository is to keep a version of a useful development boards for my [MySensors](https://www.mysensors.org/) projects based on atmega 328, esp32 and nrf24l01 module, so I do not need to wire all componentes into a breadboard.
 
+## Atmega328 Development Board
 
 Features:
 * Almost all I/O pins available for direct connection
@@ -15,3 +16,13 @@ Features:
 This is the way it looks like:
 
 ![Pcb board preview](https://github.com/eduardomarcos/nrf24-development-board/blob/master/rf24-dev-board-pcb-preview.png)
+
+## Esp32 Development Board
+
+Features:
+* All I/O pins available for direct connection
+* NRF24L01 wired with an optional capacitor for noise reduction
+
+This is the way it looks like:
+
+![Pcb board preview](https://github.com/eduardomarcos/nrf24-development-board/blob/master/esp32-board.png)
