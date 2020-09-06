@@ -176,12 +176,6 @@ Text GLabel 5050 2550 2    50   Input ~ 0
 CSN
 Wire Wire Line
 	4200 2550 5050 2550
-Text GLabel 5950 1700 0    50   Input ~ 0
-IRQ
-Text GLabel 5050 2750 2    50   Input ~ 0
-IRQ
-Wire Wire Line
-	4200 2750 4400 2750
 Text GLabel 4450 3250 2    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -207,19 +201,6 @@ Wire Wire Line
 	4200 3150 4450 3150
 Text GLabel 6450 2000 3    50   Input ~ 0
 GND
-$Comp
-L Device:Jumper JP1
-U 1 1 5F556D09
-P 4700 2750
-F 0 "JP1" H 4600 2650 50  0000 C CNN
-F 1 "Jumper" H 4850 2650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4700 2750 50  0001 C CNN
-F 3 "~" H 4700 2750 50  0001 C CNN
-	1    4700 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 2750 5050 2750
 $Comp
 L Device:LED D1
 U 1 1 5F557B77
